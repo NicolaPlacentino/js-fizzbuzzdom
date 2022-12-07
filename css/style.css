@@ -9,7 +9,40 @@
 /* general */
 
 body{
-    font-family: sans-serif
+    background-color: dodgerblue;
+}
+
+.i-element, .Fizz, .Buzz, .FizzBuzz{
+    width: 80px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    font-weight: bold;
+    
+    border-radius: 8px;
 }
 
 /* utils */
+
+.i-element{
+    background-color: white;
+}
+
+.Fizz{
+    background-color: aquamarine;
+}
+
+.Buzz{
+    background-color: gold;
+}
+
+.FizzBuzz{
+    background-color: deeppink;
+    
+    color: white;
+    font-size: 18px;
+}

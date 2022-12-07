@@ -22,10 +22,20 @@ for (let i = 1; i <= 100; i++) {
         fizzBuzz = 'Fizz'
     }
 
-    // 4. stampare in console
     if(i % 3 === 0 || i % 5 === 0){
+        // 4. stampare in console
         console.log(fizzBuzz)
+
+        // 5. stampare in pagina
+        const fizzBuzzElement = `<div class="col p-4"><div class="${fizzBuzz}">${fizzBuzz}</div></div>`
+        targetElement.innerHTML += (fizzBuzzElement)
+
     } else {
+         // 4. stampare in console
         console.log(i)
+
+          // 5. stampare in pagina
+        const iElement = `<div class="col p-4"><div class="i-element">${i}</div></div>`
+        targetElement.innerHTML += iElement
     }
 }
