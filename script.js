@@ -22,6 +22,7 @@ for (let i = 1; i <= 100; i++) {
         fizzBuzz = 'Fizz'
     }
 
+    // 4. stampare in console
     if(i % 3 === 0 || i % 5 === 0){
         console.log(fizzBuzz)
     } else {
