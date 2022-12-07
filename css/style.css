@@ -26,6 +26,10 @@ body{
     border-radius: 8px;
 }
 
+h1{
+    font-size: 70px;
+}
+
 /* utils */
 
 .i-element{
