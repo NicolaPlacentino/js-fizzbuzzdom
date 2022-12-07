@@ -13,7 +13,7 @@ for (let i = 1; i <= 100; i++) {
     
     let fizzBuzz 
     
-    // 3. se il numero è multiplo di 3 stampare 'Fizz', se di 5 stampare 'Buzz', se di entrambi stampare 'FizzBuzz'
+    // 3. se il numero è multiplo di 3 il valore è 'Fizz', se di 5 il valore è 'Buzz', se di entrambi il valore è 'FizzBuzz'
     if(i % 3 === 0 && i % 5 === 0){
         fizzBuzz = 'FizzBuzz'
     } else if(i % 5 === 0){
